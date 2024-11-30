@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
-const authRoutes = require('./routes/userRoutes');
-
+const authRoutes = require('./routes/UserRoute');
 dotenv.config();
 connectDB();
 const app = express();
@@ -15,8 +14,6 @@ app.use(express.json()); // Pour analyser les requêtes JSON
 // Routes
 app.use('/api/user', authRoutes);
 
-// Démarrer le serveur
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
-});
+const port = process.env.PORT;
+app.listen(port,()=> console.log(`server run in port ${port}`));
+
