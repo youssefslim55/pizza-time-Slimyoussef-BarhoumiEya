@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const { isLogIn, isAdmin } = require("../middleware/userAuth");
 const { createProduct, getAllProducts, deleteProduct, getSingleProduct, updateProduct } = require("../controller/productController");
 
@@ -11,4 +11,4 @@ productRoute.get("/:slug", getSingleProduct);
 productRoute.delete("/delete/:slug",isLogIn,isAdmin, deleteProduct);
 productRoute.put("/update/:slug",isLogIn,isAdmin, updateProduct);
 
-module.exports = productRoute;
+module.exports = productRoute;*/

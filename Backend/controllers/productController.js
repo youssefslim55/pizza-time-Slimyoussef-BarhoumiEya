@@ -1,4 +1,4 @@
-const Product = require("../models/ProductModel");
+/*const Product = require("../models/ProductModel");
 const createError = require("http-errors");
 const cloudinary = require("cloudinary");
 const slugify = require("slugify");
@@ -156,4 +156,4 @@ module.exports = {
   getAllProducts,
   updateProduct,
   deleteProduct,
-};
+};*/

@@ -1,4 +1,4 @@
-const jwt = require("jsonwebtoken");
+/*const jwt = require("jsonwebtoken");
 const { jwtAccessKey } = require("../secret/secret");
 const createError = require("http-errors");
 
@@ -53,4 +53,4 @@ const isAdmin = async (req, res, next) => {
     }
 }
 
-module.exports = {isLogIn, isLogOut, isAdmin}
+module.exports = {isLogIn, isLogOut, isAdmin}*/
